@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Estilo para a lista de celulares */
+ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+  margin: 20px 0; /* Margem superior e inferior */
+  border: 1px solid #ccc; /* Borda ao redor da lista */
+  border-radius: 5px; /* Arredondar os cantos da borda */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para profundidade */
+}
+
+/* Estilo para cada item da lista */
+li {
+  padding: 15px; /* Espaçamento interno */
+  border-bottom: 1px solid #eee; /* Linha separadora entre os itens */
+  transition: background-color 0.3s; /* Transição suave para o fundo */
+}
+
+/* Remove a linha inferior do último item */
+li:last-child {
+  border-bottom: none;
+}
+
+/* Efeito ao passar o mouse sobre o item da lista */
+li:hover {
+  background-color: #f9f9f9; /* Cor de fundo ao passar o mouse */
+  cursor: pointer; /* Muda o cursor para indicar interatividade */
+}
+
+/* Estilo para o cabeçalho da lista */
+h2 {
+  font-size: 1.5em; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
